@@ -65,6 +65,34 @@ footer p {
 	color: #655f52;
 }
 
+.carousel {
+	padding-bottom: 110%;  /* Image aspect ratio: height /width * 100 */	
+	position: relative;
+	background-color: #ffffff;
+}
+
+.carousel-items img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	margin-left: 1rem;
+	padding-top: 1rem;
+}
+
+.carouse-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+.carousel-buttons {
+	position: inherit;
+	z-index: 1000;
+}
+
 @media only screen and (min-width: 37em) {
 
 .logo {
@@ -92,6 +120,33 @@ button {
 	}
 }
 
+.carousel {
+	padding-bottom: 80%;  /* Image aspect ratio: height /width * 100 */	
+	position: relative;
+	background-color: #ffffff;
+}
+
+.carousel-items img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	margin-left: 11.5rem;
+	padding-top: 1.5rem;
+}
+
+.carouse-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+.carousel-buttons {
+	position: inherit;
+	z-index: 1000;
+}
 @media only screen and (min-width: 50em) {
 
 .logo {
@@ -128,6 +183,33 @@ p {
 	margin-right: 13rem;
 }
 
+.carousel {
+	padding-bottom: 70%;  /* Image aspect ratio: height /width * 100 */	
+	position: relative;
+	background-color: #ffffff;
+}
+
+.carousel-items img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35%;
+	margin-left: 16rem;
+	padding-top: 2rem;
+}
+
+.carouse-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+.carousel-buttons {
+	position: inherit;
+	z-index: 1000;
+}
 }
 
 @media only screen and (min-width: 90em) {
@@ -164,6 +246,34 @@ button {
 p {
 	margin-left: 19.9rem;
 	margin-right: 22rem;
+}
+
+.carousel {
+	padding-bottom: 40%;  /* Image aspect ratio: height /width * 100 */	
+	position: relative;
+	background-color: #ffffff;
+}
+
+.carousel-items img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20%;
+	margin-left: 34rem;
+	padding-top: 2rem;
+}
+
+.carouse-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+.carousel-buttons {
+	position: inherit;
+	z-index: 1000;
 }
 
 }
@@ -203,5 +313,34 @@ p {
 	margin-left: 27rem;
 	margin-right: 42rem;
 }
+
+.carousel {
+	padding-bottom: 20%;  /* Image aspect ratio: height /width * 100 */	
+	position: relative;
+	background-color: #ffffff;
+}
+
+.carousel-items img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10%;
+	margin-left: 55rem;
+	padding-top: 3rem;
+}
+
+.carouse-items [data-state="current"] {
+	z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+	z-index: 101;
+}
+
+.carousel-buttons {
+	position: inherit;
+	z-index: 1000;
+}
+
 
 }
