@@ -32,43 +32,31 @@ p {
 	color: #655f52;
 }
 
-button {
-	font-size: 1.125rem;
-	padding: 1em;
-	border-radius: 10px;
+.buy-btn {
+	font-size: 1rem;
+	padding: 3%;
+	border-radius: 11px;
 	border: 3px solid #ffffff;
 	background-color: #ffffff;
 	color: #e0c921;
 	cursor: pointer;
-	margin-left: 8rem;
+	margin-left: 10rem;
 	margin-bottom: 4rem;
-	margin-top: 2rem;
-	}
+	margin-top: 3rem;
+	text-decoration: none;
+}
+
 
 .clearfix:after {
 	clear: both;
 }
 
 
-footer {
-	background-color:#ffffff;
-	clear: both;
-	float: none;
-	position:absolute;
-	width:100%;
-	padding: 10px 0 15px;
-}
-
-footer p {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
-	color: #655f52;
-}
-
 .carousel {
 	padding-bottom: 110%;  /* Image aspect ratio: height /width * 100 */	
 	position: relative;
 	background-color: #ffffff;
+	margin-top: 2rem;
 }
 
 .carousel-items img {
@@ -76,8 +64,10 @@ footer p {
 	top: 0;
 	left: 0;
 	width: 50%;
-	margin-left: 1rem;
-	padding-top: 1rem;
+	margin: 0 3em;
+	padding-top: .5rem;
+	padding: 0 3em ;
+
 }
 
 .carouse-items [data-state="current"] {
@@ -91,6 +81,46 @@ footer p {
 .carousel-buttons {
 	position: inherit;
 	z-index: 1000;
+	width: 100%;
+}
+
+.next {
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+	background-color: #e0c921;
+	color: #ffffff;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	margin-top: 8rem;
+}
+
+.previous {
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+	background-color: #e0c921;
+	color: #ffffff;
+	cursor: pointer;
+	position: absolute;
+	left: 10px;
+	margin-top: 8rem;
+}
+
+
+footer {
+	background-color:#ffffff;
+	clear: both;
+	float: none;
+	position:absolute;
+	width:100%;
+	padding: 10px 0 15px;
+	margin-top: 40rem;
+}
+
+footer p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #655f52;
 }
 
 @media only screen and (min-width: 37em) {
@@ -106,7 +136,7 @@ footer p {
 }
 
 
-button {
+.buy-btn {
 	font-size: 1.125rem;
 	padding: 1em;
 	border-radius: 10px;
@@ -131,7 +161,6 @@ button {
 	top: 0;
 	left: 0;
 	width: 40%;
-	margin-left: 11.5rem;
 	padding-top: 1.5rem;
 }
 
@@ -159,7 +188,7 @@ button {
 	margin-bottom: 2rem;
 }
 
-button {
+.buy-btn {
 	font-size: 1.125rem;
 	padding: 1em;
 	border-radius: 10px;
@@ -224,7 +253,7 @@ p {
 	margin-bottom: 2rem;
 }
 
-button {
+.buy-btn {
 	font-size: 1.125rem;
 	padding: 1em;
 	border-radius: 10px;
@@ -290,7 +319,7 @@ p {
 	margin-bottom: 2rem;
 }
 
-button {
+.buy-btn {
 	font-size: 1.125rem;
 	padding: 1em;
 	border-radius: 10px;

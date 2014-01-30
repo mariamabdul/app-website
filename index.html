@@ -5,6 +5,8 @@
   <title>Drive Book</title>
        	<link href="css/general.css" rel="stylesheet">
 		<link href="css/carousel.css" rel="stylesheet">
+		<link href="css/dialog-polyfill.css" rel="stylesheet">
+  		<link href="css/video.css" rel="stylesheet">
         <meta name="handheldfriendly" content="true">
         <meta name="mobileoptimized" content="240">
         <meta name="viewport" content="width=device-width,initial-scale=1, target-densitydpi=device-dpi">
@@ -15,19 +17,33 @@
 
 	
 
-		<img src="img/vid.jpg" class="vid">
+		
 
+		  <button id="btn-open">Watch Video</button>
+
+<dialog id="video">
+	<button id="btn-close">×</button>
+		<div id="video-placeholder"></div>
+		</dialog>
+		
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="js/dialog-polyfill.js"></script>  
+<script src="js/video.js"></script>  
+
+
+<img src="img/vid.jpg" class="vid">
 
 			
 		
 			<p><strong>Drive Book</strong> is an educational application found in Apple’s App Store. It’s an app that helps users pass their licence in Ontario. This app provides information through a textbook style where users are able to do a quiz to test themselves before they go to get their licence after they read through the textbook.</p>
 	
-	<button type="buy">Buy the App</button>
+
+	<a href="#"class="buy-btn">Buy the App</a>
+	
 
 
 
 	<div class="carousel">
-
 		<div class="carousel-items">
 			<img data-state="current" src="img/chapters.jpg" alt="">
 			<img src="img/titles.jpg" alt="">
@@ -35,19 +51,17 @@
 			<img src="img/quiz.jpg" alt="">
 			<img src="img/correct.jpg" alt="">
 	    </div>
-	   </div>
     <div class="carousel-buttons">
       <button class="next">Next</button>
-    
-     <div class="carousel-buttons">
       <button class="previous">Previous</button>
- 
+ 	</div>
   </div>
 
+	  
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  	<script src="js/carousel.js"></script>
 
 
-  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-  <script src="js/carousel.js"></script>
   
 
   

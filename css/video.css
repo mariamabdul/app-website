@@ -1,0 +1,42 @@
+dialog {
+	border: 2px solid #000;
+	border-radius: 8px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5)
+}
+
+dialog::backdrop {
+	background-color: rgba(0,000,0,0.5);
+}
+
+dialog + .backdrop {
+	background-color: rgba(0,000,0,0.5);
+}
+
+#btn-open {
+	padding: 2%;
+	border-radius: 11px;
+	border: 3px solid #ffffff;
+	background-color: #ffffff;
+	color: #e0c921;
+	cursor: pointer;
+	margin-left: 1rem;
+	text-decoration: none;
+}
+
+#btn-close {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	text-align: center;
+	line-height: 24px;
+	border: 2px solid #ffff;
+	background-color: #000;
+	color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	padding: 0;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	top: -16px;
+	right: -16px;
+}
