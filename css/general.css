@@ -84,6 +84,46 @@ p {
 	width: 100%;
 }
 
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+section {
+	padding: 10rem 0;
+}
+
+.wheel {
+	width: 150px;	
+}
+
+.road-section {
+	background-color: #ffffff;
+}
+
+.road {
+	width: 150px;
+	opacity: 0;
+}
+
+.js-road-animate {
+	-webkit-animation: road-fade 2s linear 1 forwards;
+	/*
+	animation-fill-mode: forwards;
+	Force the element to keep its state after the animation completes therefore matching the styles of the last frame of animation
+	*/
+
+}
+
+@-webkit-keyframes road-fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .next {
 	border-radius: 10px;
 	border: 3px solid #ffffff;
